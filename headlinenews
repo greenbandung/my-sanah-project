@@ -59,7 +59,7 @@ function hn_writeStyle(){
     s += "    "+hn_posisi+":0px;";
     s += "    left:0px;";
     s += "    padding:5px;";
-    s += "    width:80%;";
+    s += "    width:60%;";
     s += "    background:" + hn_warna_latar + ";";
     s += "    border:1px solid "+ hn_warna_garis + ";";
     s += "}";
@@ -69,7 +69,7 @@ function hn_writeStyle(){
 }
 function hn_writeContent(){
     var s = "<div id='hn_headline' title='Headline news of "+hn_getBlogTitle()+"'>";
-    s += "<div style='float:left'>";
+    s += "<div style='text-align:center'>";
     s += " <a href='"+hn_feed_url+"'>";
     s += "  <img src='http://sites.google.com/site/masdhanisite/CoffeeCup_Feed_128x128.png'";
     s += " height='10'/>";
@@ -81,7 +81,7 @@ function hn_writeContent(){
         s += "    <a href='" + hn_getBlogURL() + "'>" + hn_getBlogTitle() + "</a>";
         s += "  </div>";
     }
-    s += "  <marquee style='float:left; margin-left:10px; width:80%' scrollAmount='3'>";
+    s += "  <marquee style='float:left; margin-left:10px; width:60%' scrollAmount='3'>";
     for(var i=0; i<hn_jumlah_post; i++){
         var hn_entry = hn_entries[i];
         s += "<a href='"+hn_entry.href+"' ";

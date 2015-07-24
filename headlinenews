@@ -1,6 +1,6 @@
 /* Headline News Script
- * Originally written by: Nifan Sunandar
- * Website: Blog Tips (http://snifan.blogspot.com/)
+ * Originally written by: Sohib Sanam
+ * Website: Sohib Sanam (http://blogfacebookemail.blogspot.com/)
  * 
  *
  * predefined variables are:
@@ -59,7 +59,7 @@ function hn_writeStyle(){
     s += "    "+hn_posisi+":0px;";
     s += "    left:0px;";
     s += "    padding:5px;";
-    s += "    width:100%;";
+    s += "    width:80%;";
     s += "    background:" + hn_warna_latar + ";";
     s += "    border:1px solid "+ hn_warna_garis + ";";
     s += "}";
@@ -72,7 +72,7 @@ function hn_writeContent(){
     s += "<div style='float:left'>";
     s += " <a href='"+hn_feed_url+"'>";
     s += "  <img src='http://sites.google.com/site/masdhanisite/CoffeeCup_Feed_128x128.png'";
-    s += " height='20'/>";
+    s += " height='10'/>";
     s += " </a>";
     s += "</div>";
     if(hn_tampilkan_judul){
